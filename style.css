@@ -1,0 +1,53 @@
+/* style */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cointainer{
+    background-color:antiquewhite;
+    height:500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    border-radius: 25px;
+
+}
+
+.cointainer .contained{
+    font-size: 30px;
+
+}
+.cointainer .contained input{
+    height:30px;
+    width: 250px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.cointainer .contained button{
+    height:40px;
+    width: 150px;
+    font-size: 30px;
+    background-color:brown;
+    border-radius: 10px;
+}
+.cointainer .contained select{
+    height:40px;
+    width: 250px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+h1{
+    background-color:aquamarine;
+    height:100px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
